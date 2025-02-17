@@ -1,0 +1,44 @@
+name: compress
+
+on:
+  push:
+    branches:
+      - onelight
+    paths:
+      - 'onelight/**'
+      - 'onelight.css'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v2
+
+      - name: 设置 Node.js 环境（安装依赖）
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18 
+
+      - name: 安装 clean-css-cli
+        run: |
+          npm install -g clean-css-cli
+
+      - name: 压缩 CSS 文件
+        run: |
+          cleancss -o ./dist/onelight.min.css ./onelight.css
+
+      - name: 推送压缩后的文件到仓库
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add ./dist/*
+          if git diff-index --quiet HEAD --; then
+            echo "没有任何提交"
+            exit 0
+          fi
+          git commit -m "压缩打包css文件"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
