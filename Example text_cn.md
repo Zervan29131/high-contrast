@@ -1,4 +1,4 @@
-# OneLight
+# HignContrast
 
 [TOC]
 
