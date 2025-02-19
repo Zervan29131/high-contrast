@@ -210,7 +210,6 @@ description: >
   <div style="background: var(--rose-800);"></div>
   <div style="background: var(--rose-900);"></div>
 </div>
-
 ## Monochrome Palette
 
 <div style="display: grid; grid-template-columns: repeat(11, 1fr); line-height: 2.25; gap: 1px;">

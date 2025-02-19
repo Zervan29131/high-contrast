@@ -1,4 +1,10 @@
-# HignContrast
+---
+title: Lorem ipsum
+author: dummy
+description: this block is YAML front matters
+---
+
+# HighContrast
 
 [TOC]
 
