@@ -281,7 +281,6 @@ description: >
   <div style="background: var(--stone-800);"></div>
   <div style="background: var(--stone-900);"></div>
 </div>
-
 # Heading 1
 
 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes.
