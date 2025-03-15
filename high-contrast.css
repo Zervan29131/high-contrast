@@ -5,7 +5,27 @@
     All rights reserved
 */
 
+/* latin */
+@font-face {
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Times New Roman'), local('Times New Roman'),url('./high-contrast/Times-New-Roman.woff2') format('woff2');
+  }
+  /* @font-face {
+    font-family: 'FangZhengKaiTiJianTi-1';
+    font-style: normal;
+    font-weight: normal;
+    src: local('FangZhengKaiTiJianTi-1'), local('FangZhengKaiTiJianTi-1'), url('./high-contrast/FangZhengKaiTiJianTi-1.woff2') format('woff2');
+  }   */
+  /* @font-face {
+    font-family: 'GB2312.woff2';
+    font-style: normal;
+    font-weight: normal;
+    src: local('GB2312'), local('GB2312'), url('./high-contrast/GB2312.woff2') format('woff2');
+  } */
 :root {
+
     /* 改变输入框的背景色 */
     --bg-color: #000000;
     /* 改变侧边工具栏的背景色 */
@@ -106,6 +126,7 @@
     --important-color: #8250df;
     --important-border: solid 0.5px #8250df94;
 
+
 }
 
 /* 引用块 */
@@ -126,51 +147,6 @@
     padding: 10px 10px 10px 20px;
     transition: var(--transition)
 }
-/* @include-when-export url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext); */
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext);
-
-/* 字体 */
-/* open-sans-regular - latin-ext_latin */
-@font-face {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Open Sans Regular'), local('OpenSans-Regular'), url('./high-contrast/open-sans-v17-latin-ext_latin-regular.woff2') format('woff2');
-    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD, U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
-
-/* open-sans-italic - latin-ext_latin */
-@font-face {
-    font-family: 'Open Sans';
-    font-style: italic;
-    font-weight: normal;
-    src: local('Open Sans Italic'), local('OpenSans-Italic'), url('./high-contrast/open-sans-v17-latin-ext_latin-italic.woff2') format('woff2');
-    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD, U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
-
-/* open-sans-700 - latin-ext_latin */
-@font-face {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: bold;
-    src: local('Open Sans Bold'), local('OpenSans-Bold'), url('./high-contrast/open-sans-v17-latin-ext_latin-700.woff2') format('woff2');
-    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD, U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
-
-/* open-sans-700italic - latin-ext_latin */
-@font-face {
-    font-family: 'Open Sans';
-    font-style: italic;
-    font-weight: bold;
-    src: local('Open Sans Bold Italic'), local('OpenSans-BoldItalic'), url('./high-contrast/open-sans-v17-latin-ext_latin-700italic.woff2') format('woff2');
-    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD, U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
-
-
-
-
-
-
 
 
 /* 链接的颜色 */
@@ -186,7 +162,9 @@ html {
 }
 
 body {
-    font-family: "Open Sans", "Clear Sans", "Helvetica Neue", Helvetica, Arial, 'Segoe UI Emoji', sans-serif;
+    /* 字体文件 */
+    /* font-family: 'Times New Roman','FangZhengKaiTiJianTi-1','GB2312.woff2', sans-serif; */
+    font-family: 'Times New Roman', sans-serif;
     color: rgb(255, 255, 255);
     line-height: 1.6;
     /* 行间距 */
@@ -225,6 +203,7 @@ table td {
     margin: 0;
     padding: 6px 13px;
 }
+
 table th {
     font-weight: bold;
     border: 1px solid #00ffff;
@@ -232,11 +211,13 @@ table th {
     margin: 0;
     padding: 6px 13px;
 }
+
 table tr {
     border: 1px solid #00ffff;
     margin: 0;
     padding: 0;
 }
+
 /* 表格编辑按钮背景颜色 */
 .ty-table-edit {
     border-top: 1px solid #00ffff;
@@ -259,11 +240,6 @@ p {
 
 a {
     color: #00ffff;
-}
-
-body {
-    /* 自定义字体 ，启用时将覆盖当前主题中的字体设置，并应用系统字体Courier，*/
-    font-family: Courier;
 }
 
 /* toc目录颜色 */
