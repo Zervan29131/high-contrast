@@ -1,18 +1,17 @@
-<h1 align='center'>OneLight Theme For Typora</h1>
+<h1 align='center'>high-contrast Theme For Typora</h1>
 
 <p align="center">
-    <a href="https://github.com/caolib/typora-onelight-theme/blob/onelight/README.md">简体中文</a>
+    <a href="https://github.com/Zervan29131/high-contrast/blob/high-contrast/README.md">简体中文</a>
     |
     English
 </p>
 <p align="center">
-  <img src="https://img.shields.io/github/downloads/caolib/typora-onelight-theme/total?labelColor=grey&color=blue" alt="Downloads">
-  <img src="https://img.shields.io/github/v/release/caolib/typora-onelight-theme?labelColor=grey&color=red" alt="Release">
-  <img src="https://img.shields.io/github/license/caolib/typora-onelight-theme" alt="License">
-  <img src="https://img.shields.io/github/stars/caolib/typora-onelight-theme" alt="Stars">
-  <img src="https://img.shields.io/github/issues/caolib/typora-onelight-theme?label=Issues" alt="Issues">
-  <img src="https://img.shields.io/github/last-commit/caolib/typora-onelight-theme?label=Last%20Commit" alt="Last Commit">
-  <img src="https://github.com/caolib/typora-onelight-theme/actions/workflows/ci.yml/badge.svg" alt="ci">
+  <img src="https://img.shields.io/github/downloads/Zervan29131/high-contrast/total?labelColor=grey&color=blue" alt="Downloads">
+  <img src="https://img.shields.io/github/v/release/Zervan29131/high-contrast?labelColor=grey&color=red" alt="Release">
+  <img src="https://img.shields.io/github/license/Zervan29131/high-contrast" alt="License">
+  <img src="https://img.shields.io/github/stars/Zervan29131/high-contrast" alt="Stars">
+  <img src="https://img.shields.io/github/issues/Zervan29131/high-contrast?label=Issues" alt="Issues">
+  <img src="https://img.shields.io/github/last-commit/Zervan29131/high-contrast?label=Last%20Commit" alt="Last Commit">
 </p>
 
 
@@ -20,9 +19,9 @@
 
 
 > [!tip]
-> **Here are two articles using the OneLight theme, click to see detailed theme effect demonstrations**
+> **Here are two articles using the high-contrast theme, click to see detailed theme effect demonstrations**
 >
-> 1. **[OneLight](https://bin-sites.pages.dev/onelight)**
+> 1. **[high-contrast](https://bin-sites.pages.dev/high-contrast)**
 > 2. **[Computer Networks](https://bin-sites.pages.dev/net)**
 
 ---
@@ -47,7 +46,7 @@
 
 ### 2.1 Download Files
 
-> 1. Download the [theme file package](https://github.com/caolib/typora-onelight-theme/releases)
+> 1. Download the [theme file package](https://github.com/Zervan29131/high-contrast/releases)
 > 2. In Typora, select File → Preferences → Appearance → Open Theme Folder
 > 3. Extract the downloaded package, paste the **CSS files** and **folders** into Typora's theme folder (themes)
 > 4. Restart Typora and switch the theme in the menu bar, and you're done
@@ -63,7 +62,7 @@
 > 2. **To avoid cloning irrelevant files from other branches, please make sure to use the command below!! Otherwise, you'll have to download for a long time** (The project is forked from the official repository, and the commit history includes records from the gh-pages branch)
 >
 >    ```shell
->    git clone --single-branch https://github.com/caolib/typora-onelight-theme.git
+>    git clone --single-branch https://github.com/Zervan29131/high-contrast.git
 >    ```
 >
 > The advantage of this method is that it's more convenient. For future updates, you only need to use the `git pull` command to get the latest commits. The disadvantage is that cloning will download all the project files, including some unnecessary md files, etc.
@@ -72,15 +71,15 @@
 
 ## 3. About Customization
 
-If you want to add your own styles, it's not recommended to modify the `onelight.css` file directly.
+If you want to add your own styles, it's not recommended to modify the `high-contrast.css` file directly.
 
-You can create a new `onelight.user.css` file in the same directory as `onelight.css`, and put your styles in this file. It has higher priority, and when you update later, you only need to update `onelight.css` without overriding your styles.
+You can create a new `high-contrast.user.css` file in the same directory as `high-contrast.css`, and put your styles in this file. It has higher priority, and when you update later, you only need to update `high-contrast.css` without overriding your styles.
 
-If `onelight.user.css` doesn't work, you may need to add `!important` to increase priority.
+If `high-contrast.user.css` doesn't work, you may need to add `!important` to increase priority.
 
 ## **4. About Fonts**
 
-Default fonts are set at the beginning of the `onelight.css` file, which you can modify as needed. Font files are in the [fonts](https://github.com/caolib/typora-onelight-theme/tree/onelight/onelight/fonts) folder.
+Default fonts are set at the beginning of the `high-contrast.css` file, which you can modify as needed. Font files are in the [fonts](https://github.com/Zervan29131/high-contrast/tree/high-contrast/high-contrast/fonts) folder.
 ![](https://github.com/user-attachments/assets/ab75260f-cff0-43b7-b8e5-dfea38e8525c)
 
 ---
@@ -89,13 +88,13 @@ Default fonts are set at the beginning of the `onelight.css` file, which you can
 
 > [!important]
 >
-> Background images are in the `onelight/img` folder. There are several prepared images in the folder, and you can also add your own images (preferably with transparent backgrounds). Then search for `background-image` in the CSS file to find the code below and replace the image path:
+> Background images are in the `high-contrast/img` folder. There are several prepared images in the folder, and you can also add your own images (preferably with transparent backgrounds). Then search for `background-image` in the CSS file to find the code below and replace the image path:
 >
 > ```css
 > content {
 >      background-color: transparent;
 >      /* You can replace the image here, or comment out this entire section if you don't want to display it */
->      background-image: url('./onelight/img/bg.gif');
+>      background-image: url('./high-contrast/img/bg.gif');
 >      background-position: 100% 100%;
 >      background-repeat: no-repeat;
 >      background-size: 100px auto; /* Adjust the image display size */
@@ -113,10 +112,10 @@ Default fonts are set at the beginning of the `onelight.css` file, which you can
 
 ✅ The theme works best in integrated mode ✨
 
-❓ If you have any questions, you can ask in [Issues](https://github.com/caolib/typora-onelight-theme/issues). All kinds of feedback are welcome.
+❓ If you have any questions, you can ask in [Issues](https://github.com/Zervan29131/high-contrast/issues). All kinds of feedback are welcome.
 
-📄 The [docs](https://github.com/caolib/typora-onelight-theme/tree/onelight/docs) folder contains markdown files of sample articles 📄
+📄 The [docs](https://github.com/Zervan29131/high-contrast/tree/high-contrast/docs) folder contains markdown files of sample articles 📄
 
-🖼️ The [img](https://github.com/caolib/typora-onelight-theme/tree/onelight/onelight/img) folder contains background images for the theme. If you don't need them, you can delete them directly.
+🖼️ The [img](https://github.com/Zervan29131/high-contrast/tree/high-contrast/high-contrast/img) folder contains background images for the theme. If you don't need them, you can delete them directly.
 
 [translated by AI]
