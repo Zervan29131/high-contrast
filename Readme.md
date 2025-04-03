@@ -2,12 +2,12 @@
 typora theme high-contrast
 
 
-<h1 align='center'>OneLight Theme For Typora</h1>
+<h1 align='center'>HighContrast Theme For Typora</h1>
 
 <p align="center">
     简体中文
     |
-    <a href="https://github.com/caolib/typora-onelight-theme/blob/onelight/docs/README_en.md">English</a>
+    <a href="https://github.com/caolib/high-contrast/README_en.md">English</a>
 </p>
 
 

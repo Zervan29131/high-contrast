@@ -10,7 +10,7 @@
     font-family: 'Times New Roman';
     font-style: normal;
     font-weight: normal;
-    src: local('Times New Roman'), local('Times New Roman'),url('./high-contrast/Times-New-Roman.woff2') format('woff2');
+    src: local('Times New Roman'), local('Times New Roman'),url('./high-contrast/fonts/Times-New-Roman.woff2') format('woff2');
   }
   /* @font-face {
     font-family: 'FangZhengKaiTiJianTi-1';
