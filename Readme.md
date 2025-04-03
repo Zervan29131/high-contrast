@@ -5,9 +5,9 @@
 <p align="center">
     简体中文
     |
-    <a href="https://github.com/Zervan29131/high-contrast/README_en.md">English</a>
+    <a href="https://github.com/Zervan29131/high-contrast/blob/main/README_en.md
+    ">English</a>
 </p>
-
 
 <p align="center">
   <img src="https://img.shields.io/github/downloads/Zervan29131/high-contrast/total?labelColor=grey&color=blue" alt="Downloads">

@@ -1,7 +1,8 @@
 <h1 align='center'>high-contrast Theme For Typora</h1>
 
 <p align="center">
-    <a href="https://github.com/Zervan29131/high-contrast/blob/high-contrast/README.md">简体中文</a>
+    <a href="https://github.com/Zervan29131/high-contrast/blob/main/Readme.md
+    ">简体中文</a>
     |
     English
 </p>
