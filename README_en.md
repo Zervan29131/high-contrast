@@ -1,4 +1,4 @@
-<h1 align='center'>high-contrast Theme For Typora</h1>
+<h1 align='center'>High-Contrast Theme For Typora</h1>
 
 <p align="center">
     <a href="https://github.com/Zervan29131/high-contrast/blob/main/Readme.md
@@ -18,27 +18,16 @@
 
 ## **1. Overview**
 
+![image-1](./img/image-1.png)
 
-> [!tip]
-> **Here are two articles using the high-contrast theme, click to see detailed theme effect demonstrations**
->
-> 1. **[high-contrast](https://bin-sites.pages.dev/high-contrast)**
-> 2. **[Computer Networks](https://bin-sites.pages.dev/net)**
+![image-2](./img/image-2.png)
 
----
-
-![image-20250108140354139](https://s2.loli.net/2025/01/08/fNQF1ZCOgGydEUL.png)
-
-![image-20250108140529374](https://s2.loli.net/2025/01/08/aMkKwdmVuTCtW4G.png)
-
-![image-20250119102419998](https://s2.loli.net/2025/01/19/4jotBCzeDdlAwfF.png)
-
-<details><summary><kbd>Expand to see more screenshots</kbd></summary>
-  <img src="https://s2.loli.net/2025/01/08/Ir1mgZCto4YS6lj.png"></br>
-  <img src="https://s2.loli.net/2025/03/04/YzmsQOAFJ2UkpC7.png"></br>
-  <img src="https://s2.loli.net/2025/01/08/cAgBOqFoCMYE8S6.png"></br>
-	Integrated menu interface
-  <img src="https://s2.loli.net/2025/01/08/QF2UA9zPOW5X6ji.png"></br>
+<details><summary><kbd>展开查看更多截图</summary></kbd>
+  <img src="./img/img-11.png"></br>
+  <img src="./img/img-12.png"></br>
+  <img src="./img/img-13.png"></br>
+  <img src="./img/img-14.png"></br>
+  <img src="./img/img-15.png"></br>
 </details>
 
 ---
@@ -78,45 +67,10 @@ You can create a new `high-contrast.user.css` file in the same directory as `hig
 
 If `high-contrast.user.css` doesn't work, you may need to add `!important` to increase priority.
 
-## **4. About Fonts**
+## 4. Acknowledgements
 
-Default fonts are set at the beginning of the `high-contrast.css` file, which you can modify as needed. Font files are in the [fonts](https://github.com/Zervan29131/high-contrast/tree/high-contrast/high-contrast/fonts) folder.
-![](https://github.com/user-attachments/assets/ab75260f-cff0-43b7-b8e5-dfea38e8525c)
+⭐ If you like the theme, please give it a star, thank you 🙏!
 
----
+❓ If you have any questions, you can ask in [Issues](https://github.com/Zervan29131/high-contrast/issues), all opinions are welcome!
 
-## **5. Background Image**
-
-> [!important]
->
-> Background images are in the `high-contrast/img` folder. There are several prepared images in the folder, and you can also add your own images (preferably with transparent backgrounds). Then search for `background-image` in the CSS file to find the code below and replace the image path:
->
-> ```css
-> content {
->      background-color: transparent;
->      /* You can replace the image here, or comment out this entire section if you don't want to display it */
->      background-image: url('./high-contrast/img/bg.gif');
->      background-position: 100% 100%;
->      background-repeat: no-repeat;
->      background-size: 100px auto; /* Adjust the image display size */
->      transition: background-image .5s ease-in-out, background-size .5s ease-in-out
-> }
-> ```
->
-> <img src="https://s2.loli.net/2025/03/05/7Ds8SCmvWnkwraM.png" style="zoom: 50%;" />
-
----
-
-## 6. Other
-
-<img align='right' src="https://s2.loli.net/2025/01/04/zt7O3daMLDC5EHW.png" alt="Like" />⭐ If you like this theme, please give it a star, thank you! 🙏
-
-✅ The theme works best in integrated mode ✨
-
-❓ If you have any questions, you can ask in [Issues](https://github.com/Zervan29131/high-contrast/issues). All kinds of feedback are welcome.
-
-📄 The [docs](https://github.com/Zervan29131/high-contrast/tree/high-contrast/docs) folder contains markdown files of sample articles 📄
-
-🖼️ The [img](https://github.com/Zervan29131/high-contrast/tree/high-contrast/high-contrast/img) folder contains background images for the theme. If you don't need them, you can delete them directly.
-
-[translated by AI]
+🎉 Thank you for your support, your support is my motivation to move forward!

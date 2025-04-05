@@ -21,27 +21,15 @@
 
 ## **1.概览**
 
-
-> [!tip]
-> **这里有两篇文章使用High-Contrast主题，可点击查看主题详细效果展示**
->
-> 1. **[High-Contrast](https://bin-sites.pages.dev/high-contrast)**
-> 2. **[计算机网络](https://bin-sites.pages.dev/net)**
-
----
-
-![image-20250108140354139](https://s2.loli.net/2025/01/08/fNQF1ZCOgGydEUL.png)
-
-![image-20250108140529374](https://s2.loli.net/2025/01/08/aMkKwdmVuTCtW4G.png)
-
-![image-20250119102419998](https://s2.loli.net/2025/01/19/4jotBCzeDdlAwfF.png)
+![image-2](./img/image-1.png)
+![image-2](./img/image-2.png)
 
 <details><summary><kbd>展开查看更多截图</summary></kbd>
-  <img src="https://s2.loli.net/2025/01/08/Ir1mgZCto4YS6lj.png"></br>
-  <img src="https://s2.loli.net/2025/03/04/YzmsQOAFJ2UkpC7.png"></br>
-  <img src="https://s2.loli.net/2025/01/08/cAgBOqFoCMYE8S6.png"></br>
-	一体化菜单界面
-  <img src="https://s2.loli.net/2025/01/08/QF2UA9zPOW5X6ji.png"></br>
+  <img src="./img/img-11.png"></br>
+  <img src="./img/img-12.png"></br>
+  <img src="./img/img-13.png"></br>
+  <img src="./img/img-14.png"></br>
+  <img src="./img/img-15.png"></br>
 </details>
 
 ---
@@ -81,46 +69,11 @@
 
 如果`high-contrast.user.css`无效，你可能要添加`!important`提高优先级
 
-## **4.关于字体**
 
-在`high-contrast.css`文件开头设置了默认字体，可以自行修改，字体文件在[fonts](https://github.com/Zervan29131/high-contrast/tree/high-contrast/high-contrast/fonts)文件夹下
-![](https://github.com/user-attachments/assets/ab75260f-cff0-43b7-b8e5-dfea38e8525c)
+## 4.致谢
 
----
+⭐ 如果喜欢主题的话，请给一个star吧，感谢🙏！
 
-## **4.背景图片**
+❓有任何问题都可以在 [Issues](https://github.com/Zervan29131/high-contrast/issues) 提问，欢迎各种意见！
 
-> [!important]
->
-> 背景图片在`high-contrast/img`文件夹下，文件夹下有几张准备好的图片，你也可以添加自己的图片（最好使用透明背景的图片），然后在css文件中搜索 `background-image`找到下面代码替换图片路径
->
-> ```css
-> content {
->      background-color: transparent;
->      /* 可以替换此处的图片，不想显示可以将这段整个注释掉 */
->      background-image: url('./high-contrast/img/bg.gif');
->      background-position: 100% 100%;
->      background-repeat: no-repeat;
->      background-size: 100px auto; /* 调整图片显示大小 */
->      transition: background-image .5s ease-in-out, background-size .5s ease-in-out
-> }
-> ```
->
-> <img src="https://s2.loli.net/2025/03/05/7Ds8SCmvWnkwraM.png" style="zoom: 50%;" />
-
----
-
-## 5.其他
-
-<img align='right' src="https://s2.loli.net/2025/01/04/zt7O3daMLDC5EHW.png" alt="喜欢" />⭐ 如果喜欢主题的话，请给一个star吧，感谢🙏！
-
-✅ 一体化模式下主题效果更佳✨
-
-❓ 有问题可以在 [Issues](https://github.com/Zervan29131/high-contrast/issues) 提问，欢迎各种意见
-
-📄 [docs](https://github.com/Zervan29131/high-contrast/tree/high-contrast/docs)文件夹中有示例文章的markdown文件📄
-
-🖼️ [img](https://github.com/Zervan29131/high-contrast/tree/high-contrast/high-contrast/img)文件夹中有主题的背景图片，如果不需要可以直接删除
-
-
-
+🎉 感谢给予支持的朋友，您的支持是我前进的动力！
