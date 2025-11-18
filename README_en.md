@@ -67,7 +67,7 @@ You can create a new `high-contrast.user.css` file in the same directory as `hig
 
 If `high-contrast.user.css` doesn't work, you may need to add `!important` to increase priority.
 
-## 4. Acknowledgements
+## 4. Credits
 
 ⭐ If you like the theme, please give it a star, thank you 🙏!
 
